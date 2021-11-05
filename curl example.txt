@@ -1,0 +1,21 @@
+curl 'https://www.linkedin.com/voyager/api/search/dash/clusters?decorationId=com.linkedin.voyager.dash.deco.search.SearchClusterCollection-126&q=all&query=(flagshipSearchIntent:SEARCH_MY_ITEMS_JOB_SEEKER,queryParameters:(cardType:List(APPLIED)))&start=0' \
+  -H 'authority: www.linkedin.com' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'sec-ch-ua: "Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"' \
+  -H 'x-restli-protocol-version: 2.0.0' \
+  -H 'x-li-lang: en_US' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36' \
+  -H 'x-li-page-instance: urn:li:page:d_flagship3_myitems_savedjobs;HHqBk7JuReGNRCNXeqmMRw==' \
+  -H 'accept: application/vnd.linkedin.normalized+json+2.1' \
+  -H 'csrf-token: ajax:5434343241354' \
+  -H 'x-li-track: {"clientVersion":"1.9.6076","mpVersion":"1.9.6076","osName":"web","timezoneOffset":-4,"timezone":"America/New_York","deviceFormFactor":"DESKTOP","mpName":"voyager-web","displayDensity":1,"displayWidth":1080,"displayHeight":1080}' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://www.linkedin.com/my-items/saved-jobs/' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: bcookie=v=2&32e34; bscookie=v=1&2019062-; visit="v=G"; liap=true; JSESSIONID="ajax:3216"; timezone=America/New_York; PLAY_LANG=en; lidc="b=TB83:s=T:r=T:a=T:p=T:g=2717:u=170:x=1:i=1635986882:t=1636073282:v=2:sig=AQFSAnu04strka"; PLAY_SESSION=eyJhbGciOiJIUzI1NiJ9.eyJZDBiLTQ0NJodHRwcLRCPk-fBdRFh4B' \
+  --compressed
